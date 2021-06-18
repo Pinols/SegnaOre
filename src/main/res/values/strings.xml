@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Segna Ore</string>
+    <string name="open">Apri</string>
+    <string name="user">Segna Ore</string>
+    <string name="back">Indietro</string>
+    <string name="add">Aggiungi</string>
+    <string name="ok">Conferma</string>
+    <string name="arr">Ora di arrivo:</string>
+    <string name="fin">Ora di uscita:</string>
+    <string name="test"></string>
+    <string name="pausa">Pausa:</string>
+    <string name="riepilogo">Riepilogo</string>
+    <string name="bottone">bottone</string>
+    <string name="scegli">Scegli mese di cui ottenere il riepilogo:</string>
+    <string name="delete">Eliminare?</string>
+    <string name="delete1">Si</string>
+    <string name="delete2">No</string>
+</resources>
