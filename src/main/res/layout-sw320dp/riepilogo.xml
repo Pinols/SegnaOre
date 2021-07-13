@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/tvriep"
         android:layout_width="match_parent"
-        android:layout_height="24dp"
+        android:layout_height="wrap_content"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -19,7 +19,7 @@
         android:id="@+id/scrolriep"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:isScrollContainer="true"
         android:scrollbarStyle="insideOverlay"
         app:layout_constraintStart_toStartOf="parent"

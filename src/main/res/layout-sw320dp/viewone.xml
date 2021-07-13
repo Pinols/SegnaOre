@@ -28,7 +28,6 @@
         android:layout_width="86dp"
         android:layout_height="50dp"
         android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/blackborder3"
         android:text="@string/back"
@@ -40,7 +39,6 @@
         android:layout_width="86dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/blackborder3"
         android:text="@string/add"
@@ -50,7 +48,7 @@
     <TextView
         android:id="@+id/tvtest"
         android:layout_width="345dp"
-        android:layout_height="47dp"
+        android:layout_height="75dp"
         android:layout_marginTop="44dp"
         android:background="@android:color/transparent"
         android:textSize="18sp"
@@ -63,10 +61,9 @@
 
     <Button
         android:id="@+id/bRiepilogo"
-        android:layout_width="86dp"
+        android:layout_width="92dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/blackborder3"
         android:text="@string/riepilogo"

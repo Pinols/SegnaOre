@@ -50,7 +50,7 @@ public class Riepilogo extends Activity {
                             layout.removeView(v1);
                             String s = fm.getTotMese(combos);     //costruttore base
                             if (s.equals("0S")) {
-                                tv.setText("Non sono state trovate ore di lavoro nel mese selezionato");
+                                tv.setText("Nessuna ora di lavoro nel mese scelto.");
                             } else {
                                 tv.setText("Hai lavorato " + s + " questo mese");
                             }

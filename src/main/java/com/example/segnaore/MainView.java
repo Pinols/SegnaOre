@@ -110,7 +110,7 @@ public class MainView extends Activity {
                 LayoutInflater inflater=(LayoutInflater) view.getContext().getSystemService(view.getContext().LAYOUT_INFLATER_SERVICE);             //creating popup
                 riepv=inflater.inflate(R.layout.popriepilogo,null);
                 check=true;
-                rieppop=new PopupWindow(riepv,675,750,true);
+                rieppop=new PopupWindow(riepv,675,765,true);
                 rieppop.showAtLocation(view, Gravity.CENTER,0,0);
                 if(check){
                     Button confirm=(Button)riepv.findViewById(R.id.buttonRiep);

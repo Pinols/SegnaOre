@@ -16,6 +16,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Locale;
 
+import static android.graphics.Color.GREEN;
+
 public class FileManager {
     Context ctx;
     File file;
@@ -103,6 +105,12 @@ public class FileManager {
         int mina=arrivo%100;
         int millia=((hrsa*60)+mina)*60000;
         int hrsf=fine/100;
+
+        //tryng to add end hrs after midnight, the day after
+        //was it that easy?
+        if(hrsf<hrsa)hrsf=hrsf+24;
+
+
         int minf=fine%100;
         int millif=((hrsf*60)+minf)*60000;
         long dummy=(long)millif-(long)millia;
@@ -130,6 +138,9 @@ public class FileManager {
             b.setText(s);
             System.out.println(s);
             b.setId(i + 100);
+
+            b.setBackgroundResource(R.drawable.cbutton);
+
             bottoni.add(b);
         }
             return bottoni;
